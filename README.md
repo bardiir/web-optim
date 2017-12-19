@@ -11,8 +11,9 @@ Milestone 1:
 - Optimize Hero Video Files (hero_*) into Audio-Free Video Files (like [majamee/hero-videoptim](https://github.com/majamee/hero-videoptim) does)
 
 Milestone 2:
+- Introduce options/parameters to disable every optimization if not needed/useful
 - Crush JS & CSS Files
-- Compress static files (js, css, fonts,...) into .gz files alongside their uncompressed counterparts & offer documentation to leverage this on a webserver level to lower overall performance usage
+- Compress static files (js, css, fonts,...) into .gz files alongside their uncompressed counterparts & create documentation to leverage this on a webserver level to lower overall performance usage by not compressing statics inline
 
 Milestone 3:
 - Optimize GIF Images
