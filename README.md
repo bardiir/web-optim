@@ -1,4 +1,6 @@
+# ** Work in Progress - This currently is neither complete nor functional - Do not use (yet)! **
 # web-optim
+
 Fully featured web optimizer for (mostly) static pages
 
 ## Usage
