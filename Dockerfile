@@ -1,2 +1,2 @@
-FROM      bardiir/alpine-caesium-dashls
+FROM      bardiir/web-optim:dash-hls
 
