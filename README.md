@@ -24,9 +24,10 @@ Milestone 1:
 
 Milestone 2:
 - [ ] Add caching and locking to prevent multiple runs of optimization if not necessary
-- [ ] Save optimized files to cache for faster lookup if out is cleared (for example in build pipelines)
+- [ ] Save optimized files to `cache` for faster lookup if `out` is cleared (for example in build pipelines)
 
 Milestone 3:
+- [ ] Convert CMYK JPEG Files to sRGB automatically - CMYK is bad on the web...
 - [ ] Optimize Video Files into Multi-Bitrate Videofiles using HLS and DASH (like [majamee/auto-dash-hls](https://github.com/majamee/auto-dash-hls) does)
 
 Milestone 4:
