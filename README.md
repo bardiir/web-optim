@@ -24,6 +24,7 @@ Milestone 1:
 
 Milestone 2:
 - [ ] Add caching and locking to prevent multiple runs of optimization if not necessary
+- [ ] Save optimized files to cache for faster lookup if out is cleared (for example in build pipelines)
 
 Milestone 3:
 - [ ] Optimize Video Files into Multi-Bitrate Videofiles using HLS and DASH (like [majamee/auto-dash-hls](https://github.com/majamee/auto-dash-hls) does)
@@ -37,6 +38,7 @@ Milestone 5:
 - [ ] Optimize GIF Images
 - [ ] Optimize/Crush SVG Images
 - [ ] Optimize Fonts (remove symbols not used in the html codebase ideally)
+- [ ] Garbage collection in cache directory
 
 Milestone 6:
 - [ ] Automatically replace video files referenced in html files with the multi bitrate ones using PLYR
