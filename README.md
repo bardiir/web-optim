@@ -1,6 +1,12 @@
 # web-optim
 Fully featured web optimizer for (mostly) static pages
 
+## Usage
+```
+docker pull bardiir/web-optim
+docker run -v /path/to/your/web/folder:/in bardiir/web-optim
+```
+
 ## WIP
 This is a Work-in-progress but based on the learnings from the auto-caesium, auto-dash-hls etc projects done by [@majamee](https://github.com/majamee) and me over the last weeks the following features/optimizations are planned:
 
