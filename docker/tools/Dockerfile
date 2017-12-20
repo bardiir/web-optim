@@ -1,4 +1,4 @@
-FROM      bardiir/web-optim:dash-hls
+FROM      bardiir/web-optim-dash-hls
 
 RUN       tools="imagemagick \
           
