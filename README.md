@@ -11,7 +11,7 @@ docker run -v /path/to/your/web/folder:/in -v /path/to/the/optimized/output:/out
 
 `-v /path/to/your/web/folder:/in` - This is the data folder you want to optimize, replace `/path/to/your/web/folder` with the real source  
 `-v /path/to/the/optimized/output:/out` - This is where the optimized data is saved to, replace `/path/to/the/optimized/output` with the real target  
-`-v /tmp/cache:/cache` (optional) - Save cache data to this directory, this speeds up subsequent runs a lot if the output folder gets cleared in between
+`-v /tmp/cache:/cache` (optional) - Save cache data to this directory, this speeds up subsequent runs a lot if the output folder gets cleared in between, replace `/tmp/cache` with the caching location
 
 
 ## WIP
