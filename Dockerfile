@@ -1,2 +1,2 @@
-FROM      bardiir/web-optim:dash-hls
+FROM      bardiir/web-optim:tools
 
