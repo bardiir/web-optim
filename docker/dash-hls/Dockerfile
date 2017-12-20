@@ -34,3 +34,5 @@ RUN         buildDeps="build-base \
             git clone https://github.com/gpac/gpac.git /tmp/gpac && \
             cd /tmp/gpac && ./configure && make -j4 && make install && make distclean && rm -rf /tmp && \
             apk del ${buildDeps} && rm -rf /var/cache/apk/*
+
+COPY        ./transcode.sh /app/transcode.sh
